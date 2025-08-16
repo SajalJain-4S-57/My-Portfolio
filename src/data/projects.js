@@ -3,7 +3,7 @@ export const projects = [
       title: 'Orientation Detector',
       description: 'A mobile-first web application that detects device orientation and switches between Alarm Clock, Stopwatch, Timer, and Weather features.',
       tags: ['HTML','CSS','Javascript','React', 'API', 'Tailwind'],
-      image: '/public/assets/orientation.jpg',
+      image: '/assets/orientation.jpg',
       links: { 
         demo: 'https://orientation-psi.vercel.app/', 
         code: 'https://github.com/SajalJain-4S-57/orientation',
@@ -22,7 +22,7 @@ export const projects = [
         'CSS',
         'UI/UX'
       ],
-      image: '/public/assets/portfolio.jpg',
+      image: '/assets/portfolio.jpg',
       links: { demo: '#', code: '#' },
     },
     {
@@ -38,7 +38,7 @@ export const projects = [
         'LocalStorage',
         'Responsive Design'
       ],
-      image: '/public/assets/todo.jpg',
+      image: '/assets/todo.jpg',
       links: { 
         demo: '#',  
         code: 'https://github.com/SajalJain-4S-57/To-do-list' // update with your repo link

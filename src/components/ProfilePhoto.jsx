@@ -7,7 +7,7 @@ export default function ProfilePhoto({ className = '' }) {
       aria-label="Profile photo"
     >
       <img
-        src="/public/assets/profile-default.png"
+        src="/assets/profile-default.png"
         alt="Profile"
         className="w-full h-full object-cover"
         loading="eager"
