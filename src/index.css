@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Focus ring visible + accessible */
+:focus-visible { outline: none; }
+.focus-ring:focus-visible {
+  @apply ring-4 ring-primary ring-offset-2 ring-offset-white dark:ring-offset-neutral-900 rounded-md;
+}
+
+/* Smooth scrolling */
+html { scroll-behavior: smooth; }
