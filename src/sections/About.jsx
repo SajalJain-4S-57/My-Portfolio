@@ -1,5 +1,5 @@
 import Section from '../components/Section';
-import aboutIllustration from '/assets/about-illustration.png'; // add your PNG here
+import aboutIllustration from '/public/assets/about-illustration.png'; // add your PNG here
 
 export default function About() {
   return (
